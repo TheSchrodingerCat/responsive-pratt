@@ -1,0 +1,80 @@
+
+*{
+	font-family: 'Raleway', sans-serif;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.blanco{
+	color: white;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.row{
+	margin-left: 0.7%;
+}
+
+.line{
+	border: 1px solid rgba(201, 201, 201, 0.8);
+	margin: 5% 0;
+}
+
+.mi-margin{
+	margin: 2% 0;
+}
+
+.turquese{
+	color: rgb(74, 232, 192);
+}
+
+.doble-contenedor{
+	padding: 0 8% 3% 8%;
+}
+
+/*----------------------------------- NAV -----------------------------------------*/
+
+
+
+/*----------------------------------- HEADER -----------------------------------------*/
+header{
+	padding-top: 5%;
+	background: rgb(83, 101, 119);
+}
+
+
+/*----------------------------------- EXCEL -----------------------------------------*/
+.excel{
+	background: rgb(242, 242, 242);
+}
+
+.title-excel{
+	margin: 5% 0;
+}
+
+/*----------------------------------- whats new ---------------------------------------*/
+.new{
+	background: rgb(242, 242, 242);
+}
+
+.cont-new{
+	margin: 7% 0;
+}
+
+.title-new{
+	margin-bottom: 6%;
+}
+
+.img-celu{
+	width: 60%;
+}
+
+
