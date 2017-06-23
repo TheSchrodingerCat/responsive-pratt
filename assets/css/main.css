@@ -28,6 +28,10 @@ body{
 	margin: 5% 0;
 }
 
+.grey{
+	color: rgba(201, 201, 201, 0.8);
+}
+
 .mi-margin{
 	margin: 2% 0;
 }
@@ -46,8 +50,12 @@ body{
 
 /*----------------------------------- HEADER -----------------------------------------*/
 header{
-	padding-top: 5%;
+	padding-top: 7%;
 	background: rgb(83, 101, 119);
+}
+
+.awesome{
+	padding-bottom: 3%
 }
 
 
@@ -77,4 +85,34 @@ header{
 	width: 60%;
 }
 
+/*------------------------------------ SCREENSHOTS -------------------------------------*/
+.screenshots{
+	padding: 10% 0 8% 0;
+	background: rgb(83, 101, 119);
+}
 
+/*------------------------------------ FORMULARIO -------------------------------------*/
+.form{
+	padding: 3% 0;
+	background: rgb(62, 63, 64);
+}
+
+.list{
+	list-style: none;
+}
+
+.title-form{
+	margin-bottom: 4%;
+}
+
+.btn-submit{
+	background: rgb(93, 182, 95);
+	border: 1px solid rgb(93, 182, 95);
+	margin: 5% 0;
+}
+
+/*------------------------------------ FORMULARIO -------------------------------------*/
+footer{
+	padding: 1% 0;
+	background: rgb(47, 47, 47);
+}

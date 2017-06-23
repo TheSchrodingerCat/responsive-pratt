@@ -30,10 +30,10 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="my-navbar">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Description</a></li>
-							<li><a href="#">Showcase</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#excel">Description</a></li>
+							<li><a href="#screenshots">Showcase</a></li>
+							<li><a href="#form">Contact</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
@@ -42,7 +42,7 @@
 	</nav>
 
 	<!-- header -->
-	<header>
+	<header id="home">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -64,7 +64,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12 col-sx-12 hidden-lg hidden-md">
+						<div class="col-sm-12 col-sx-12 hidden-lg hidden-md awesome">
 							<h4 class="blanco bold">Awesome Design</h4>
 							<p class="blanco">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, eum perferendis doloremque numquam.</p>
 						</div>
@@ -75,7 +75,7 @@
 	</header>
 
 	<!-- design to excel -->
-	<section class="excel">
+	<section class="excel" id="excel">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="container">
@@ -140,6 +140,62 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- some screenshots -->
+	<section class="screenshots" id="screenshots">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12 text-center">
+					<h3 class="blanco mi-margin">Some Screenshots</h3>
+					<img src="assets/img/item-01.png" alt="...">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- form -->
+	<section class="form" id="form">
+		<div class="container-fluid">
+			<div class="doble-contenedor">
+				<div class="row">
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+						<h3 class="grey mi-margin">Address</h3>
+						<ul>
+							<li class="list grey">Av. Greenville 987,</li>
+							<li class="list grey">New York,</li>
+							<li class="list grey">90873</li>
+							<li class="list grey">Unites States</li>
+						</ul>
+					</div>
+					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+						<h3 class="grey title-form">Drop Us A Line</h3>
+						<form>
+							<div class="form-group">
+								<label for="name" class="blanco bold">Your Name</label>
+								<input type="name" class="form-control" id="nombre" placeholder="Your Name">
+							</div>
+							<div class="form-group">
+								<label for="email" class="blanco bold">Email Address</label>
+								<input type="email" class="form-control" id="correo" placeholder="Your Email">
+							</div>
+							<div class="form-group">
+								<label for="texto" class="blanco bold">Your Text</label><br>
+								<textarea name="text" id="mensaje" cols="130" rows="4"></textarea>
+							</div>
+							<button type="submit" class="btn btn-default btn-submit blanco bold">SUBMIT</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer>
+		<div class="container text-center">
+			<p><span class="blanco">Created by </span><span class="turquese">GRUMPYCO</span></p>
+		</div>
+	</footer>
 
 
 
