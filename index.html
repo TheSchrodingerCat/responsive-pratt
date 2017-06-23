@@ -172,17 +172,19 @@
 						<form>
 							<div class="form-group">
 								<label for="name" class="blanco bold">Your Name</label>
-								<input type="name" class="form-control" id="nombre" placeholder="Your Name">
+								<input type="name" class="form-control" id="nombre" placeholder="Your Name"><br>
+								<div class="contenedor" id="cont-error-name"></div>
 							</div>
 							<div class="form-group">
 								<label for="email" class="blanco bold">Email Address</label>
-								<input type="email" class="form-control" id="correo" placeholder="Your Email">
+								<input type="email" class="form-control" id="correo" placeholder="Your Email"><br>
+								<div class="contenedor" id="cont-error-email"></div>
 							</div>
 							<div class="form-group">
 								<label for="texto" class="blanco bold">Your Text</label><br>
 								<textarea name="text" id="mensaje" cols="130" rows="4"></textarea>
 							</div>
-							<button type="submit" class="btn btn-default btn-submit blanco bold">SUBMIT</button>
+							<button type="submit" class="btn btn-default btn-submit blanco bold" id="submit">SUBMIT</button>
 						</form>
 					</div>
 				</div>
@@ -201,5 +203,6 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="assets/js/app.js"></script>
 </body>
 </html>
